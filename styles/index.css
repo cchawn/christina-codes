@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply text-neutral-800 bg-white;
+  }
+
+  p a, p a:visited {
+    @apply inline-block italic relative outline-none;
+
+    transition: color 0.5s ease-in;
+
+    &:after {
+      @apply absolute bg-neutral-400/25 block h-4 w-11/12 top-1/4;
+
+      content: '';
+      transform: scaleX(0);
+      transform-origin: right center;
+      transition: 0.55s transform cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    &:hover,
+    &:focus {
+      &:after {
+        transform: scaleX(1);
+        transform-origin: left center;
+      }
+    }
+  }
+}
