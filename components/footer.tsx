@@ -1,4 +1,4 @@
-import Container from "./container";
+import Container from './container';
 
 const Footer = () => {
   return (
@@ -10,8 +10,12 @@ const Footer = () => {
           </div>
           <div className="flex basis-1/2 justify-end">
             <ul>
-              <li className="mx-2 inline-block"><a href="./">✨ about</a></li>
-              <li className="mx-2 inline-block"><a href="./posts">📚 posts</a></li>
+              <li className="mx-2 inline-block">
+                <a href="./">✨ about</a>
+              </li>
+              <li className="mx-2 inline-block">
+                <a href="./posts">📚 posts</a>
+              </li>
             </ul>
           </div>
         </div>
