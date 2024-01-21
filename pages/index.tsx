@@ -2,6 +2,7 @@ import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
+import SocialLinks from '../components/social-links';
 import { getAllPosts } from '../lib/api';
 import Head from 'next/head';
 import { FULL_NAME } from '../lib/constants';
@@ -20,6 +21,7 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Intro />
+          <SocialLinks />
           {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>
       </Layout>

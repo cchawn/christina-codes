@@ -7,8 +7,12 @@
     @apply text-neutral-800 bg-white;
   }
 
-  p a, p a:visited {
-    @apply inline-block italic relative outline-none;
+  p a {
+    @apply italic;
+  }
+
+  a, a:visited {
+    @apply inline-block relative outline-none;
 
     transition: color 0.5s ease-in;
 
