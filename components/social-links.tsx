@@ -1,7 +1,7 @@
 const SocialLinks = () => {
   return (
-    <section className="max-w-prose text-lg my-16">
-      <h2 className="uppercase text-2xl font-bold mb-4">Social</h2>
+    <section className="max-w-prose text-base my-16">
+      <h2 className="uppercase text-sm mb-4 tracking-spread">Social</h2>
       <ul>
         <li><a href="https://github.com/cchawn">GitHub</a></li>
         <li><a href="https://ca.linkedin.com/in/cchawn">LinkedIn</a></li>

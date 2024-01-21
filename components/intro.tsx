@@ -1,10 +1,10 @@
 const Intro = () => {
   return (
     <section className="mt-16 mb-12 md:mb-16">
-      <h1 className="text-5xl md:text-8xl font-bold tracking-tighter">
+      <h1 className="text-2xl md:text-5xl font-bold tracking-spread leading-loose uppercase">
         Christina Chan
       </h1>
-      <div className="max-w-prose text-xl">
+      <div className="max-w-prose text-lg">
         <p className="mb-4">
           Hi! I&apos;m Christina — a full-stack web developer. I&apos;m passionate about
           the web, diversity, equity, and inclusion. Currently, I work as a

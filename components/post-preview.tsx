@@ -13,8 +13,8 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div className="flex flex-row items-baseline">
-      <h3 className="mr-2">
+    <div className="flex flex-col mb-2 md:mb-0 md:flex-row items-baseline">
+      <h3 className="md:mr-2">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
