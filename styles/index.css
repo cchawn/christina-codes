@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply text-neutral-800 bg-white;
-  }
-
   p a {
     @apply italic;
   }
