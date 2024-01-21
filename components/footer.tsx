@@ -11,10 +11,7 @@ const Footer = () => {
           <div className="flex basis-1/2 justify-end">
             <ul>
               <li className="mx-2 inline-block">
-                <a href="./">✨ about</a>
-              </li>
-              <li className="mx-2 inline-block">
-                <a href="./posts">📚 posts</a>
+                <a href="./">✨ home</a>
               </li>
             </ul>
           </div>
