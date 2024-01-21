@@ -6,7 +6,7 @@ const Intro = () => {
       </h1>
       <div className="max-w-prose text-xl">
         <p className="mb-4">
-          Hi! I'm Christina — a full-stack web developer. I'm passionate about
+          Hi! I&apos;m Christina — a full-stack web developer. I&apos;m passionate about
           the web, diversity, equity, and inclusion. Currently, I work as a
           Staff Software Developer at{' '}
           <a href="https://wealthsimple.com">Wealthsimple</a>. Previously{' '}
