@@ -8,7 +8,7 @@ type Props = {
 const MoreStories = ({ posts }: Props) => {
   return (
     <section className="max-w-prose text-lg my-16">
-      <h2 className="uppercase text-2xl font-bold mb-4">More Stories</h2>
+      <h2 className="uppercase text-2xl font-bold mb-4">Posts</h2>
       {posts.map(post => (
         <PostPreview
           key={post.slug}
