@@ -1,27 +1,18 @@
 import Container from "./container";
-import { EXAMPLE_PATH } from "../lib/constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
+    <footer className="text-xs lg:text-sm">
       <Container>
-        <div className="py-28 flex flex-col lg:flex-row items-center">
-          <h3 className="text-4xl lg:text-[2.5rem] font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            Statically Generated with Next.js.
-          </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-            <a
-              href="https://nextjs.org/docs/basic-features/pages"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
-            >
-              Read Documentation
-            </a>
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
-              className="mx-3 font-bold hover:underline"
-            >
-              View on GitHub
-            </a>
+        <div className="border-t border-neutral-200 py-5 flex flex-row items-center">
+          <div className="basis-1/2">
+            <p>© Christina Chan</p>
+          </div>
+          <div className="flex basis-1/2 justify-end">
+            <ul>
+              <li className="mx-2 inline-block"><a href="./">✨ about</a></li>
+              <li className="mx-2 inline-block"><a href="./posts">📚 posts</a></li>
+            </ul>
           </div>
         </div>
       </Container>
