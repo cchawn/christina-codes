@@ -13,8 +13,8 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div className="flex flex-col mb-2 md:mb-0 md:flex-row items-baseline">
-      <h3 className="md:mr-2">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-0.5 md:gap-2 my-1">
+      <h3 className="md:col-span-3">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
@@ -22,7 +22,7 @@ const PostPreview = ({
           {title}
         </Link>
       </h3>
-      <p className="text-neutral-400 text-sm">
+      <p className="md:justify-self-end text-neutral-400 text-sm">
         <DateFormatter dateString={date} />
       </p>
     </div>
