@@ -3,7 +3,7 @@ module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     fontFamily: {
-      sans: ['Rethink Sans', 'sans-serif'],
+      sans: ['Avenir', 'Rethink Sans', 'sans-serif'],
     },
     extend: {
       colors: {

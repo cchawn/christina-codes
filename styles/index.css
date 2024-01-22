@@ -4,7 +4,7 @@
 
 @layer base {
   p a {
-    @apply italic;
+    @apply underline decoration-dotted decoration-neutral-400;
   }
 
   a, a:visited {
