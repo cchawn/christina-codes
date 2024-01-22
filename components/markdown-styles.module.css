@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-base leading-relaxed;
+  @apply text-lg leading-relaxed;
 
   p,
   ul,
@@ -9,10 +9,10 @@
   }
 
   h2 {
-    @apply uppercase text-lg mb-4 tracking-spread;
+    @apply uppercase text-xl mb-4 tracking-spread;
   }
 
   h3 {
-    @apply uppercase text-base mb-4 tracking-spread;
+    @apply uppercase text-lg mb-4 tracking-spread;
   }
 }

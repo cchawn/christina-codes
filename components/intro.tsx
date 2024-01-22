@@ -6,7 +6,7 @@ const Intro = () => {
       <h1 className="text-2xl md:text-5xl font-bold tracking-spread leading-loose uppercase">
         Christina <Emojis /> Chan
       </h1>
-      <p className="max-w-prose text-base md:text-xl my-4">
+      <p className="max-w-prose text-lg my-4">
         Hi! I&apos;m Christina — a full-stack web developer based in Toronto.
         I&apos;m passionate about the web, diversity, equity, and inclusion.
         Currently, I work as a Staff Software Developer at{' '}
