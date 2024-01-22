@@ -1,13 +1,23 @@
-import Link from "next/link";
+import Link from 'next/link';
+import Emojis from './emojis';
 
 const Header = () => {
   return (
-    <h2 className="text-2xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-20 mt-8">
-      <Link href="/" className="hover:underline">
-        Blog
-      </Link>
-      .
-    </h2>
+    <header className="flex sticky top-0 bg-white border-b border-neutral-200 py-5 z-10 text-base">
+      <h2 className="basis-1/2">
+        <Emojis />{' '}
+        <Link href="/" className="">
+          christina.codes
+        </Link>
+      </h2>
+      <nav className="hidden md:flex basis-1/2 justify-end">
+        <ul>
+          <li className="mx-2 inline-block">
+            <Link href="/"><span aria-hidden>✨</span> about</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

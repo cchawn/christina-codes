@@ -8,13 +8,6 @@ const Footer = () => {
           <div className="basis-1/2">
             <p>© Christina Chan</p>
           </div>
-          <div className="flex basis-1/2 justify-end">
-            <ul>
-              <li className="mx-2 inline-block">
-                <a href="./">✨ home</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </Container>
     </footer>
