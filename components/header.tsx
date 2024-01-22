@@ -13,7 +13,9 @@ const Header = () => {
       <nav className="hidden md:flex basis-1/2 justify-end">
         <ul>
           <li className="mx-2 inline-block">
-            <Link href="/"><span aria-hidden>✨</span> about</Link>
+            <Link href="/">
+              <span aria-hidden>✨</span> about
+            </Link>
           </li>
         </ul>
       </nav>

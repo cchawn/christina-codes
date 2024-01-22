@@ -1,6 +1,7 @@
 # ✨ christina.codes ✨
 
-ℹ️ _This is a statically generated blog using Next.js, Markdown, and TypeScript._
+ℹ️ _This is a statically generated blog using Next.js, Markdown, and
+TypeScript._
 
 The blog posts are stored in `/_posts` as Markdown files with front matter
 support. Adding a new Markdown file in there will create a new blog post.
