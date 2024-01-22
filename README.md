@@ -18,18 +18,24 @@ This site uses uses [Tailwind CSS](https://tailwindcss.com)
 
 ## Development
 
-### First Time Setup
+### Running Locally
+
+Use a slim HTTP server to serve static files for this website. It will be
+available on http://localhost:3000.
 
 ```sh
 yarn install
-```
-
-### Running Locally
-
-```sh
 yarn dev
 ```
 
-### Build & Deploy
+### Build & Deployment
 
-TODO
+To re-generate the static files you will need to rebuild the website with the
+following:
+
+```sh
+yarn build
+```
+
+This website is hosted with [Railway](https://railway.app/). Changes made to the
+`main` branch will be automatically pushed to production.
