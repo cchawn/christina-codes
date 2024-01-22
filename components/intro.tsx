@@ -1,24 +1,22 @@
-import Emojis from "./emojis";
+import Emojis from './emojis';
 
 const Intro = () => {
   return (
     <section className="mt-16 mb-12 md:mb-16">
       <h1 className="text-2xl md:text-5xl font-bold tracking-spread leading-loose uppercase">
-        Christina <Emojis/> Chan
+        Christina <Emojis /> Chan
       </h1>
-      <div className="max-w-prose text-lg">
-        <p className="mb-4">
-          Hi! I&apos;m Christina — a full-stack web developer. I&apos;m passionate about
-          the web, diversity, equity, and inclusion. Currently, I work as a
-          Staff Software Developer at{' '}
-          <a href="https://wealthsimple.com">Wealthsimple</a>. Previously{' '}
-          <a href="https://brainstation.io">BrainStation</a> and{' '}
-          <a href="https://www.kickstarter.com/projects/1931822269/vanhawks-valour-first-ever-connected-carbon-fibre">
-            Vanhawks
-          </a>
-          .
-        </p>
-      </div>
+      <p className="max-w-prose text-base md:text-xl my-4">
+        Hi! I&apos;m Christina — a full-stack web developer. I&apos;m passionate
+        about the web, diversity, equity, and inclusion. Currently, I work as a
+        Staff Software Developer at{' '}
+        <a href="https://wealthsimple.com">Wealthsimple</a>. Previously{' '}
+        <a href="https://brainstation.io">BrainStation</a> and{' '}
+        <a href="https://www.kickstarter.com/projects/1931822269/vanhawks-valour-first-ever-connected-carbon-fibre">
+          Vanhawks
+        </a>
+        .
+      </p>
     </section>
   );
 };
