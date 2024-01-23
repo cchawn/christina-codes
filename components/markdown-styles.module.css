@@ -8,6 +8,10 @@
     @apply my-6;
   }
 
+  ol {
+    @apply list-decimal ml-4;
+  }
+
   h2 {
     @apply uppercase text-xl mb-4 tracking-spread;
   }

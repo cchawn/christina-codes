@@ -1,7 +1,6 @@
 import ErrorPage from 'next/error';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Container from '../../components/container';
 import Header from '../../components/header';
 import Layout from '../../components/layout';
 import PostBody from '../../components/post-body';
@@ -26,21 +25,19 @@ export default function Post({ post, morePosts, preview }: Props) {
   }
   return (
     <Layout preview={preview}>
-      <Container>
-        <Header />
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <article className="mt-16 md:mt-32 mb-32">
-            <Head>
-              <title>{title}</title>
-              <meta property="og:image" content={post.ogImage.url} />
-            </Head>
-            <PostHeader title={post.title} date={post.date} />
-            <PostBody content={post.content} />
-          </article>
-        )}
-      </Container>
+      <Header />
+      {router.isFallback ? (
+        <PostTitle>Loading…</PostTitle>
+      ) : (
+        <article className="mt-16 md:mt-32 mb-32">
+          <Head>
+            <title>{title}</title>
+            <meta property="og:image" content={post.ogImage.url} />
+          </Head>
+          <PostHeader title={post.title} date={post.date} />
+          <PostBody content={post.content} />
+        </article>
+      )}
     </Layout>
   );
 }

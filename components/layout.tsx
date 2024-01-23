@@ -10,10 +10,12 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen">
+      <div className="min-h-screen container mx-auto px-4 md:px-8">
         <main>{children}</main>
       </div>
-      <Footer />
+      <div className="container mx-auto px-4 md:px-8">
+        <Footer />
+      </div>
     </>
   );
 };

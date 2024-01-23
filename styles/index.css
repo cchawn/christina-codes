@@ -9,7 +9,7 @@
 
   a,
   a:visited {
-    @apply inline-block relative outline-none;
+    @apply align-top inline-block relative outline-none;
 
     transition: color 0.5s ease-in;
 

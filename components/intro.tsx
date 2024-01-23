@@ -3,7 +3,7 @@ import Emojis from './emojis';
 const Intro = () => {
   return (
     <section className="mt-16 mb-12 md:mb-16 md:mt-52">
-      <h1 className="text-2xl md:text-5xl font-bold tracking-spread leading-loose uppercase">
+      <h1 className="text-2xl md:text-5xl font-bold tracking-wide sm:tracking-widest md:tracking-spread leading-loose uppercase">
         Christina <Emojis /> Chan
       </h1>
       <p className="max-w-prose text-lg my-4">

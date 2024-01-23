@@ -1,4 +1,3 @@
-import Container from '../components/container';
 import MoreStories from '../components/more-stories';
 import Intro from '../components/intro';
 import Layout from '../components/layout';
@@ -14,18 +13,14 @@ type Props = {
 
 export default function Index({ allPosts }: Props) {
   return (
-    <>
-      <Layout>
-        <Head>
-          <title>{FULL_NAME}</title>
-        </Head>
-        <Container>
-          <Intro />
-          <SocialLinks />
-          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
-        </Container>
-      </Layout>
-    </>
+    <Layout>
+      <Head>
+        <title>{FULL_NAME}</title>
+      </Head>
+      <Intro />
+      <SocialLinks />
+      {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+    </Layout>
   );
 }
 
