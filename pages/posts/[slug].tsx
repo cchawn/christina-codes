@@ -1,7 +1,6 @@
 import ErrorPage from 'next/error';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Header from '../../components/header';
 import Layout from '../../components/layout';
 import PostBody from '../../components/post-body';
 import PostHeader from '../../components/post-header';
@@ -17,15 +16,14 @@ type Props = {
   preview?: boolean;
 };
 
-export default function Post({ post, morePosts, preview }: Props) {
+export default function Post({ post, morePosts }: Props) {
   const router = useRouter();
   const title = `${post.title} | ${FULL_NAME}`;
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
   return (
-    <Layout preview={preview}>
-      <Header />
+    <Layout showHeader>
       {router.isFallback ? (
         <PostTitle>Loading…</PostTitle>
       ) : (
@@ -74,7 +72,7 @@ export async function getStaticPaths() {
   const posts = getAllPosts(['slug']);
 
   return {
-    paths: posts.map((post) => {
+    paths: posts.map(post => {
       return {
         params: {
           slug: post.slug,

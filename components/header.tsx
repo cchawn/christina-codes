@@ -3,7 +3,7 @@ import Emojis from './emojis';
 
 const Header = () => {
   return (
-    <header className="flex sticky top-0 bg-white border-b border-neutral-200 py-5 z-10 text-base">
+    <header className="flex sticky top-0 bg-white border-b border-neutral-200 py-5 z-10 text-base container mx-auto px-4 md:px-8">
       <h2 className="basis-1/2">
         <Emojis />{' '}
         <Link href="/" className="">
