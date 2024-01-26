@@ -5,7 +5,7 @@ type Props = {
   posts: Post[];
 };
 
-const MoreStories = ({ posts }: Props) => {
+const MorePosts = ({ posts }: Props) => {
   return (
     <section className="max-w-prose text-lg my-16">
       <h2 className="uppercase text-base mb-4 tracking-spread">Posts</h2>
@@ -22,4 +22,4 @@ const MoreStories = ({ posts }: Props) => {
   );
 };
 
-export default MoreStories;
+export default MorePosts;

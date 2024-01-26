@@ -1,16 +1,9 @@
 ---
 title: 'Reading List (2023)'
 emoji: 📚
-excerpt:
-  'A collection of interesting articles, blog posts, talks, podcasts, and books
-  that I recommend. Happy reading! 🤓'
-coverImage: '/assets/blog/dynamic-routing/cover.jpeg'
 date: '2023-12-31T00:00:00.000Z'
-author:
-  name: Christina Chan
-  picture: '/assets/blog/authors/cchan.jpg'
 ogImage:
-  url: '/assets/blog/vulnerability/cover.jpeg'
+  url: '/assets/home/og.jpg'
 ---
 
 A collection of interesting articles, blog posts, talks, podcasts, and books

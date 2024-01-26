@@ -15,6 +15,7 @@
 .DS_Store
 .vscode
 *.pem
+**/cache
 
 # debug
 yarn-debug.log*
