@@ -14,6 +14,11 @@ const SocialLinks = () => {
             Mastodon
           </a>
         </li>
+        <li className="my-1">
+          <a href="https://www.goodreads.com/user/show/126009774-christina-c">
+            GoodReads
+          </a>
+        </li>
       </ul>
     </section>
   );
