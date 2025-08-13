@@ -13,8 +13,8 @@ const Layout = ({ children, showHeader = false, showFooter = true }: Props) => {
     <>
       <Meta />
       {showHeader && <Header />}
-      <div className="min-h-screen container mx-auto px-4 md:px-8">
-        <main>{children}</main>
+      <div className="min-h-screen">
+        <main className="max-w-4xl mx-auto px-4 md:px-8">{children}</main>
       </div>
       {showFooter && <Footer />}
     </>
