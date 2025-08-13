@@ -20,7 +20,8 @@ This site uses uses [Tailwind CSS](https://tailwindcss.com)
 
 ### Prerequisites
 
-This project uses [Mise](https://mise.jdx.dev/) for managing tool versions. Install the required Node.js version:
+This project uses [Mise](https://mise.jdx.dev/) for managing tool versions.
+Install the required Node.js version:
 
 ```sh
 mise install
