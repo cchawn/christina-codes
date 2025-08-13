@@ -18,6 +18,14 @@ This site uses uses [Tailwind CSS](https://tailwindcss.com)
 
 ## Development
 
+### Prerequisites
+
+This project uses [Mise](https://mise.jdx.dev/) for managing tool versions. Install the required Node.js version:
+
+```sh
+mise install
+```
+
 ### Running Locally
 
 Use a slim HTTP server to serve static files for this website. It will be
